@@ -1,18 +1,31 @@
+using System;
+
 namespace excercises_classes
 {
     class Cat
     {   
         public int age;
-        public string race;
+        public double weight;
         public string name;
+
+
+        public void Meow()
+        {
+            System.Console.WriteLine("<<< Meow meow >>>");
+        }
         public void Bark()
         {
-            System.Console.WriteLine("Inte idag");
+            System.Console.WriteLine("No no");
         }
+    
 
-        public void Fetch()
-        {
-           System.Console.WriteLine("Nej tack!"); 
-        }
+        
+            
+        
+          
     }
+       
+
+
+    
 }
